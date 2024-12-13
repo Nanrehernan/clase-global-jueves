@@ -29,3 +29,13 @@ git checkout -b "nombre rama" (crear rama y movernos directamente a ella)
 git pull (descargamos los cambios de repo a PC)
 
 git clone "enlace repo" (clona el contenido de un respositorio en nuestra compu)
+
+
+## NOTA
+
+Si te aparecen estas opciones cuando estas configurando git en tu proyecto, solo necesitas
+definirle un nombre nombre de usuario y una contraseña. Una vez listo eso -> Enter -> Y continuas 
+con los comandos convencionales.
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
