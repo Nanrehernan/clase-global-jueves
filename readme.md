@@ -1,5 +1,3 @@
-
-
 git init (Comando para inicializar git en nuestro proyecto)
 
 git remote add origin https://github.com/Lirico/clase-global-jueves.git
