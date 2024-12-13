@@ -21,3 +21,5 @@ git push origin "nombre" (actualizar la rama origen)
 git push (actualiza una rama secundaria (no es la de origen))
 
 git branch "nombre" (comando para crear una nueva rama)
+
+git checkout "nombre rama" (comando para cambiar de rama)
