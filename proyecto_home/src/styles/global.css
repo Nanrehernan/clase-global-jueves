@@ -1,0 +1,89 @@
+/* IMPORTANCION DE FUENTES u otras cosas importables */
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+/*********** CUSTOM PROPERTIES ***********/
+:root {
+    --first-color: #54a354;
+    --first-alpha-color: #54a354cc;
+    --second-color: #785F44;
+    --white-color: #ffffff;
+    --first-font: 'Poller One', cursive;
+}
+
+/*********** RESET ***********/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 16px; /* El valor base de los REM */
+}
+body {
+    font-family: var(--first-font);
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: var(--white-color)
+}
+
+/*********** UTILITIES ***********/
+.btn {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: var(--white-color);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    line-height: 0;
+    font-family: var(--first-font);
+    height: 3.3rem;
+    transition: 0.3s;
+    width: 200px;
+}
+.btn:hover {
+    background-color: var(--first-alpha-color);
+}
+
+
+/*********** SITE STYLES ***********/
+/******* NAVBAR *******/
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    position: fixed;
+    width: 100%;
+
+
+    & .logo {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+
+        & img {
+            width: 60px;
+        }
+    }
+
+    & .nav_menu {
+        display: flex;
+        column-gap: 60px;
+
+        & .nav_item {
+            transition: 0.3s;
+        }
+        & .nav_item:hover {
+            color: var(--second-color);
+        }
+    }
+}
+.nav_active {
+    background-color: var(--first-color);
+}
+

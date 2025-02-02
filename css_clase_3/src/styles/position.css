@@ -1,0 +1,99 @@
+/* * {
+    margin: 0;
+} */
+
+/********* POSITIONING *********/
+/* 
+    Este concepto nos permite definir una posicion
+    para un elmento respecto de un contenedor.
+
+    -> ABSOLUTE
+    -> RELATIVE
+    -> FIXED
+*/
+
+/* .padre {
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 250px;
+    left: 220px;
+}
+.hijo {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+    top: 100px;
+    left:100px;
+} */
+/* .tio {
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+
+} */
+
+
+/* nav {
+    background-color: purple;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+
+    & a {
+        color: white;
+        font-size: 1.5rem;
+    }
+}
+img {
+    position: fixed;
+    width: 80px;
+    bottom: 25px;
+    right: 25px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+img:hover {
+    transform: scale(1.25);
+}
+.uno {
+    height: 100vh;
+    width: 100%;
+    background-color: orange;
+}
+.dos {
+    height: 100vh;
+    width: 100%;
+    background-color: lightgreen;
+} */
+
+
+/******** INDICE Z o Z-INDEX *******/
+/* .uno {
+    width: 700px;
+    height: 600px;
+    border: 2px dashed black;
+    position: absolute;
+    z-index: 2;
+}
+.dos {
+    width: 500px;
+    height: 300px;
+    background-color: yellow;
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    z-index: 3;
+}
+.tres {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    position: absolute;
+    top: 350px;
+    right: 100px;
+    z-index: 1;
+} */

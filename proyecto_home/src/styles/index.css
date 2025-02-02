@@ -1,0 +1,26 @@
+/*********** PAGE STYLES ***********/
+body {
+    background-image: url(/src/assets/images/yoda_background_home_index.webp);
+}
+
+/******* HOME *******/
+.home {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2%;
+
+    & h1 {
+        color: var(--white-color);
+        font-size: 5rem;
+    }
+    & span {
+        color: var(--first-color);
+    }
+}
+.vh {
+    height: 100vh;
+    background-color: var(--white-color);
+}

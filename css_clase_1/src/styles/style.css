@@ -1,0 +1,51 @@
+/* SELECTOR UNIVERSAL */
+/* * {
+    color: red;
+} */
+
+/* SELECTOR DE ETIQUETA */
+/* p {
+    color: red;
+} */
+
+/* SELECTOR DE CLASE */
+/* .pepito {
+    color: green;
+} */
+
+/* SELECTOR DE ID */
+/* #argentina {
+   color: pink;
+} */
+/* #brasil {
+    background-color: yellow;
+} */
+
+/* SELECTOR COMBINADO DE HIJOS */
+/* .lamparas > p {
+    color: red;
+} */
+
+/* SELECTOR COMBINADO DE DESCENDIENTES */
+/* .lamparas p {
+    color: red;
+} */
+
+/* SELECTOR COMBINADO DE HERMANOS */
+/* h2 ~ p {
+    color: gold;
+} */
+
+/* SELECTOR COMBINADO DE HERMANOS ADYASCENTES */
+/* h2 + p {
+    color: silver;
+} */
+
+/* SELECTOR COMBINADO DE ATRIBUTO */
+/* input[type="text"] {
+    color: red;
+} */
+
+
+/* SELECTOR COMBINADO DE COLUMNAS || */
+/* Para investigar */

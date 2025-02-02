@@ -1,0 +1,31 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+/****** MODELO DE CAJAS o BOX MODELING *****/
+
+/* 
+    Consiste en considerar a todos los containers como cajas y utilizar
+    sus caracteristicas que son:
+    -> CONTENIDO -> (texto o imagenes que pueda contener)
+    -> RELLENO -> padding
+    -> BORDE -> border
+    -> MARGEN -> margin
+*/
+
+/* .box1 {
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+    font-size: 2rem;
+    /* padding: 50px 200px 10px 100px; */
+    /* border: 10px solid orange; */
+    /* margin: valor valor valor valor; */
+/* }
+.box2 {
+    width: 400px;
+    height: 400px;
+    background-color: pink;
+} */ 
